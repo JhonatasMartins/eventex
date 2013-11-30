@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto,Arial,sans-serif;
+}
+
+.clear{
+	clear:both;
+}
+
+.landingpage header, .landingpage footer, 
+.landingpage footer div, .landingpage > div{
+	width: 100%;
+}
+
+.landingpage header, .landingpage > div, 
+.landingpage footer{
+    position: absolute;
+}
+
+.landingpage header{
+	height: 80px;
+	background: #FFF;
+}
+
+.landingpage header img{
+	padding-left: 15%;
+}
+
+.landingpage header nav{
+	float: right;
+	margin-right: 15%;
+	font-size: 12px;
+}
+
+.landingpage header nav ul, .landingpage footer nav.redes ul{
+	list-style-type: none;
+}
+
+.landingpage header nav ul li, .landingpage footer nav.redes ul li{
+	margin: 0 25px;
+	display: inline-block;
+}
+
+.landingpage header nav a{
+	padding: 40px 0 0;
+	text-decoration: none;
+	color:#A9A9A9;
+	display: block;
+}
+
+.landingpage header li.active a{
+	border-top: 2px solid #011634;
+    color: #011634 !important;
+}
+
+
+.landingpage > div{
+    top:80px;
+    bottom: 150px;
+    color: #FFF;
+	background: url('../img/background.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.landingpage .container, .landingpage footer .empresa{
+   max-width: 680px;
+}
+
+.landingpage .container{
+	position: relative;
+	top: 15%;
+	left: 15%;
+}
+
+.landingpage .container h1{
+    font-family: Raleway,Arial,sans-serif;
+}
+
+.landingpage .container section{
+	font-size: 16px;
+}
+
+.landingpage .container section p{
+    margin: 2% 0;
+}
+
+.landingpage .container section a{
+	color: #FFF;
+}
+
+.landingpage footer{
+	bottom: 0;
+	height: 150px;
+	background: #F4F4F4;
+}
+
+.landingpage footer nav.redes{
+	width: 376px;
+	margin: 5px auto;
+	border-top: 2px solid #E0E0E0;
+	box-shadow: inset 0 5px 5px #E0E0E0;
+}
+
+.landingpage footer nav.redes ul a{
+   display: block;
+   width: 70px;
+   height: 70px;
+}
+
+.landingpage footer .empresa{
+	margin: 10px auto;
+	font-size: 12px;
+}
+
+.landingpage footer .empresa .django{
+	float: right;
+}
+
+.landingpage footer .empresa p{
+	height: 27px;
+	line-height: 27px;
+}
+
+.landingpage footer .empresa p img{
+	vertical-align: middle;
+}
+
+a.icon-facebook{
+	background: url('../img/facebook.png') no-repeat center;
+}
+
+a.icon-twitter{
+	background: url('../img/twitter.png') no-repeat center;
+}
+
+a.icon-google{
+	background: url('../img/googleplus.png') no-repeat center;
+}
+
+a.icon-facebook:hover, a.icon-twitter:hover, a.icon-google:hover{
+	opacity: 0.6;
+}
