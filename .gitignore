@@ -5,5 +5,8 @@ local
 
 *.pyc
 *.sqlite3
+.env
+
+eventex/staticfiles
 
 
