@@ -1,74 +1,18 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-   <title>EventeX</title>
-   <link rel="stylesheet" href="{{ STATIC_URL }}css/style.css"/>
-</head>
-	<body class="landingpage">
-	   <header>
-	   	   <img src="{{ STATIC_URL }}img/logo.png"/> 
+{% extends 'base.html' %}
+{% block content %}
+       <div class="container">
+	       <h1>Bem Vindos ao EventeX</h1>
 
-	   	   <nav>
-               <ul>
-               	  <li class="active">
-               	     <a href="#">Home</a>
-               	  </li>
-               	  <li>
-               	     <a href="#">About</a>
-               	  </li>
-               	  <li>
-               	     <a href="#">Contact</a>
-               	  </li>
-               </ul>
-	   	   </nav>
+	       <section>
+	           <p>O evento mais sensacional do ano depois do Dev in Rio!</p>
 
-	   	   <div class="clear"></div>
-	   </header>
-	   <div>
-	       <div class="container">
-		       <h1>Bem Vindos ao EventeX</h1>
+	           <p>Você não pode perder esta oportunidade!</p>
 
-		       <section>
-		           <p>O evento mais sensacional do ano depois do Dev in Rio!</p>
+	           <p><strong><a href="/inscricao/">Inscreva-se já !</a></strong></p>
 
-		           <p>Você não pode perder esta oportunidade!</p>
-
-		           <p>Abertura das inscrições no próximo domingo.</p>
-
-		           <p>Para dúvidas e mais informações entre em contato com 
-		                <a href="mailto:eventex@eventex.com.br?Subject=Dúvida">eventex@eventex.com.br</a>
-		           </p>
-		       </section>
-	       </div>
-	   </div>
-	   <footer>
-	      <nav class="redes">
-	        <ul>
-	             <li>
-	             	<a class="icon-facebook" href="http://www.facebook.com.br"></a>
-	             </li>
-	             <li>
-	             	<a class="icon-twitter" href="http://www.twitter.com"></a>
-	             </li>
-	             <li>
-	             	<a class="icon-google" href="http://plus.google.com"></a>
-	             </li>
-             </ul>
-	      </nav>
-
-	      <div class="empresa">
-	      	 <p>© 2013. <a>EventeX<a/>, some rights reserved. 
-	      	    <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
-	      	    	<img src="{{ STATIC_URL }}img/creative.png" alt="Creative Commons License"/>
-	      	    </a> 
-
-                <a class="django" href="http://www.djangoproject.com">
-                   <img src="{{ STATIC_URL }}img/djangosite.gif" alt="A Django site"/>
-                </a>
-
-                <a class="clear"></a>
-	      	 </p> 
-	      </div>
-	   </footer>
-   </body>
-</html>
+	           <p>Para dúvidas e mais informações entre em contato com 
+	                <a href="mailto:eventex@eventex.com.br?Subject=Dúvida">eventex@eventex.com.br</a>
+	           </p>
+	       </section>
+       </div>
+{% endblock content %}
