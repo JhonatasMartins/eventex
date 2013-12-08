@@ -95,6 +95,9 @@
 	text-align: right;
 }
 
+.landingpage .container form p{
+	margin: 5px 0;
+}
 
 .landingpage footer{
 	bottom: 0;
